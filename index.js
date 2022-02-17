@@ -1,6 +1,6 @@
-// Script by Xeon 
-// 𝐃𝐨𝐠𝐞 𝐁𝐨𝐭
-// ©Xeon Bot Incorporated
+// Script by BLZXB5 
+// Mayumi DVT
+// ©DVT "Devils V Tiers
 const {
   WAConnection: _WAConnection,
   MessageType,
@@ -139,9 +139,9 @@ nopref = true
 numbernye = '0'
 autoketik = false;
 prefixStatus = false;
-targetpc = "916909137213"; 
-owner = "916909137213"; 
-fakeyoi = "Xeon"; 
+targetpc = "6283117436733"; 
+owner = "6283117436733"; 
+fakeyoi = "DVT"; 
 HunterApi = "Ikyy69", 
 xchillds = 'XChillDs' 
 hardi = 'hardianto', 
@@ -150,8 +150,8 @@ zeksapi = "vallganz5",
 dapapi = "anakasu",
 ApiZeks = "https://api.zeks.xyz",
 zeksApikey = "Alphabott",
-nomorowner1 = "@916909137213"; 
-fake = `𝗢𝘄𝗻𝗲𝗿 : ${fakeyoi}\n㋛︎ 𝗣𝗿𝗲𝗳𝗶𝘅 :「 ${prefixStatus ? "Multi Prefix" : "No Prefix"} 」`;
+nomorowner1 = "@6283117436733"; 
+fake = `𝗢𝘄𝗻𝗲𝗿 : ${fakeyoi}\n❄️ 𝗣𝗿𝗲𝗳𝗶𝘅 :「 ${prefixStatus ? "Multi Prefix" : "No Prefix"} 」`;
 thumb = fs.readFileSync("./stik/thumb.jpeg"); 
 numbernye = "0"; 
 waktu = "-";
@@ -420,8 +420,8 @@ const timeWib = moment.tz('Asia/Jakarta').format('DD/MM HH:mm:ss')
 cmhit.push(command)
     //MESS
     mess = {
-      wait: "𝙒𝙖𝙞𝙩 𝘼 𝙈𝙞𝙣𝙪𝙩𝙚 シ︎",
-      success: "Success シ︎",
+      wait: "𝙒𝙖𝙞𝙩.....",
+      success: "Success..",
       wrongFormat: "Wrong format, try again in the menu",
       error: {
         stick: "not that sticker :v",
@@ -481,7 +481,7 @@ const math = (teks) => {
           thumbnail: iye,
           surface: 200,
           message: iye,
-          orderTitle: "Xeon",
+          orderTitle: "DVT",
           sellerJid: "0@s.whatsapp.net",
         },
       },
@@ -552,7 +552,7 @@ const finv = {
     };
     const fvn = {
       key: {
-        participant: `16505434800@s.whatsapp.net`,
+        participant: `6283117436733@s.whatsapp.net`,
         ...(from ? { remoteJid: "6289643739077-1613049930@g.us" } : {}),
       },
       message: {
@@ -792,11 +792,11 @@ if (!itsMe && !isOwner)return
               mimetype: "image/jpeg",
               jpegThumbnail: fs.readFileSync(`./stik/thumb.jpeg`), //Gambarnye
             },
-            title: "FakeReply Bang", //Kasih namalu
-            description: "Xeon",
+            title: "FakeReply ", //Kasih namalu
+            description: "DVT",
             currencyCode: "USD",
             priceAmount1000: "2000",
-            retailerId: "𝐃𝐨𝐠𝐞 𝐁𝐨𝐭",
+            retailerId: "Mayumi DVT",
             productImageCount: 1,
           },
           businessOwnerJid: `0@s.whatsapp.net`,
@@ -806,7 +806,7 @@ if (!itsMe && !isOwner)return
  const ftok = {
 key: {
 			fromMe: false,
-			participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "16505434800@s.whatsapp.net" } : {})
+			participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "6283117436733@s.whatsapp.net" } : {})
 		},
 		message: {
 			"productMessage": {
@@ -932,10 +932,10 @@ const fakeitem = (teks) => {
         	fromMe:false,
         participant:`0@s.whatsapp.net`, ...(from ? {
 remoteJid :"6289523258649-1604595598@g.us" }: {})
-                    },message:{"orderMessage":{"orderId":"174238614569481","thumbnail":fs.readFileSync(`./stik/thumb.jpeg`),"itemCount":10,"status":"INQUIRY","surface":"CATALOG","message":`𝐃𝐨𝐠𝐞 𝐁𝐨𝐭`,"token":"AR6xBKbXZn0Xwmu76Ksyd7rnxI+Rx87HfinVlW4lwXa6JA=="}}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true})}
+                    },message:{"orderMessage":{"orderId":"174238614569481","thumbnail":fs.readFileSync(`./stik/thumb.jpeg`),"itemCount":10,"status":"INQUIRY","surface":"CATALOG","message":`Mayumi DVT`,"token":"AR6xBKbXZn0Xwmu76Ksyd7rnxI+Rx87HfinVlW4lwXa6JA=="}}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true})}
 // Katalog
 const reply = (teks) => {
-             res = xeon.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 111119999, "message": teks, "footerText": "*Xeon*", "thumbnail": bgg, "surface": 'CATALOG' }}, {quoted:ftrol})
+             res = xeon.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 111119999, "message": teks, "footerText": "*DVT*", "thumbnail": bgg, "surface": 'CATALOG' }}, {quoted:ftrol})
              xeon.relayWAMessage(res)
         }
 const fakewa = (teks) => {        
@@ -947,7 +947,7 @@ xeon.sendMessage(from, teks, text,{contextInfo :{text: 'hi',
 isForwarded: false,
 sendEphemeral: false,
 "externalAdReply": {
-                "title": `Whatsapp-BOT\n𝐃𝐨𝐠𝐞 𝐁𝐨𝐭. (@nnda.krnwn_) •Instagram photos and Videos`,
+                "title": `Whatsapp-BOT\nMayumi DVT. (@nnda.krnwn_) •Instagram photos and Videos`,
                 "body": "",
                 "previewType": "PHOTO",
                 "thumbnailUrl": "https://i.ibb.co/y0RYgzB/FB-IMG-1635413002830.jpg",
@@ -962,16 +962,16 @@ isForwarded: false,
 sendEphemeral: false,
 "externalAdReply": {
                 "title": `Whatsapp`,
-                "body": `wa.me/916909137213`,
+                "body": `https://wa.me/6283117436733`,
                 "mediaType": "10",
-                "mediaUrl": `wa.me/916909137213`,
+                "mediaUrl": `https://wa.me/6283117436733`,
                 "thumbnailUrl": "https://i.ibb.co/y0RYgzB/FB-IMG-1635413002830.jpg",
                 "thumbnail": iye,
-                "sourceUrl": `wa.me/916909137213`,
+                "sourceUrl": `https://wa.me/6283117436733`,
 },mentionedJid:[sender]}, quoted : mek})
 };
 const fakeyt = (teks) => {
-xeon.sendMessage(from, teks, text,{contextInfo :{text: 'hi',
+xeon.sendMessage(from, teks, text,{contextInfo :{text: 'Halo',
 "forwardingScore": 1000000000,
 isForwarded: false,
 sendEphemeral: false,
@@ -1171,7 +1171,7 @@ async function sendFileFromUrl(from, url, caption, msg, men) {
         const vote = JSON.parse(fs.readFileSync(`./lib/${from}.json`));
         let _votes = JSON.parse(fs.readFileSync(`./lib/vote/${from}.json`));
         let fil = vote.map((v) => v.participant);
-        let id_vote = sender ? sender : "916909137213@s.whatsapp.net";
+        let id_vote = sender ? sender : "6283117436733@s.whatsapp.net";
         if (fil.includes(id_vote)) {
           return mentions(
             "@" + sender.split("@")[0] + " You have voted",
@@ -1306,7 +1306,7 @@ async function sendFileFromUrl(from, url, caption, msg, men) {
       let _uptime = process.uptime() * 1000;
       let uptime = clockString(_uptime);
 
-await xeon.setStatus(`Bot Mode On Since ${uptime}`).catch((_) => _);
+await xeon.setStatus(`Bot Mode On  ${uptime}`).catch((_) => _);
       settingstatus = new Date() * 1;
     }
     if (!mek.key.fromMe && banChats === true) return;
@@ -1325,18 +1325,18 @@ const serialUser = createSerial(18)
 	        fs.writeFileSync('./database/user/registered.json', JSON.stringify(_registered))
 	        addRegisteredUser(sender, serialUser)
 	         const anuu = `「 *USER REGISTRATION* 」
-*Thank you for registering in the 𝐃𝐨𝐠𝐞 𝐁𝐨𝐭 Database*
+*Thank you for registering in the Mayumi DVT Database*
 
 *☂︎ Name :* ${pushname}
 *☂︎ API :* +${sender.split('@')[0]}
 *☂︎ Serial:* ${serialUser}
 *☂ ︎Total:* ${_registered.length} User
 
-*「 𝐃𝐨𝐠𝐞 𝐁𝐨𝐭 」*`
+*「 Mayumi DVT 」*`
          haitod = await getBuffer(`http://hadi-api.herokuapp.com/api/card/verify?nama=${encodeURI(pushname)}&member=${_registered.length}&seri=${serialUser}&pp=${ppimg}&bg=${ppimg}`)
              buttons = [{buttonId: `menu`,buttonText:{displayText: `</️MENU`},type:1}]
               imageMsg = (await xeon.prepareMessageMedia(haitod, "imageMessage", { thumbnail: haitod, })).imageMessage
-              buttonsMessage = {footerText:'Xeon', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'DVT', imageMessage: imageMsg,
               contentText:`${anuu}`,buttons,headerType:4}
               prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{quoted: fkontak})
               xeon.relayWAMessage(prep)
@@ -1344,7 +1344,7 @@ const serialUser = createSerial(18)
 	    // console.log(e)
             setTimeout( () => {
 			xeon.updatePresence(from, Presence.composing)
-			reply(`*Thank you for being registered 𝐃𝐨𝐠𝐞 𝐁𝐨𝐭*`)
+			reply(`*Thank you for being registered Mayumi DVT*`)
 		}, 2000)
         break
       
@@ -1400,8 +1400,8 @@ groups = xeon.chats.array.filter(v => v.jid.endsWith('g.us'))
               latensie = speed() - timestampe
               total = math(`${groups.length}*${privat.length}`)
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
-        ptod = "916909137213@s.whatsapp.net"
-        dtod = '916909137213'
+        ptod = "6283117436733@s.whatsapp.net"
+        dtod = '6283117436733'
         stod = `${sender}`
         uwuu = '```'
         yoii = '*'
@@ -1621,9 +1621,9 @@ sendButLocation(from, `${menu}`,`𝘽𝙤𝙩 𝘽𝙮 @${dtod.split("@")[0]}`, 
 
 break
 case 'credit':
-   dtod = '916909137213'
-   dtod1 = '916909137213'
-   dtod2 = '919774340154'
+   dtod = '6283117436733'
+   dtod1 = '6283117436733'
+   dtod2 = '6283117436733'
    dtod3 = ''
    dtod4 ='0'
    var yez = `
@@ -1994,7 +1994,7 @@ let ini_list = []
 for (let i of nomorowner1) {
 const vname = xeon.contacts[i] != undefined ? xeon.contacts[i].vname || xeon.contacts[i].notify : undefined
 ini_list.push({
-"displayName": 'Xeon',
+"displayName": 'DVT',
 "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:${vname ? `${vname}` : `${xeon.user.name}`}\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
 })
 }
@@ -2008,11 +2008,11 @@ case 'command':
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
  listMsg = {
  buttonText: '𝗟𝗜𝗦𝗧 𝗠𝗘𝗡𝗨',
- footerText: '𝐃𝐨𝐠𝐞 𝐁𝐨𝐭',
+ footerText: 'Mayumi DVT',
  description: `Hi @${sender.split('@')[0]}, Please select the menu here`,
  sections: [
                      {
-                      "title": `Xeon`,
+                      "title": `DVT`,
  rows: [
                           {
                               "title": "Script",
@@ -2080,7 +2080,7 @@ menu = `シ︎𝘋𝘰𝘸𝘯𝘭𝘰𝘢𝘥𝘦𝘳 𝘔𝘦𝘯𝘶シ︎
 
 ㋛${prefix}𝙩𝙬𝙞𝙩𝙩𝙚𝙧 <𝙪𝙧𝙡>
 `
-sendButMessage(from, menu, `𝐃𝐨𝐠𝐞 𝐁𝐨𝐭`, [
+sendButMessage(from, menu, `Mayumi DVT`, [
           {
             buttonId: `command`,
             buttonText: {
@@ -2135,7 +2135,7 @@ menu = `シ𝘎𝘳𝘰𝘶𝘱 𝘔𝘦𝘯𝘶︎シ︎
 
 ㋛${prefix}group [open/close(button)]
 `
-sendButMessage(from, menu, ` 𝐃𝐨𝐠𝐞 𝐁𝐨𝐭`, [
+sendButMessage(from, menu, ` Mayumi DVT`, [
           {
             buttonId: `command`,
             buttonText: {
@@ -2217,7 +2217,7 @@ menu = `シ︎𝘖𝘸𝘯𝘦𝘳 𝘔𝘦𝘯𝘶シ︎
 ㋛${prefix}delimage <image name>
  
 ㋛${prefix}imagelist`
-sendButMessage(from, menu, `𝐃𝐨𝐠𝐞 𝐁𝐨𝐭`, [
+sendButMessage(from, menu, `Mayumi DVT`, [
           {
             buttonId: `command`,
             buttonText: {
@@ -2240,7 +2240,7 @@ menu = `シ︎𝘜𝘱𝘴𝘸 𝘔𝘦𝘯𝘶シ︎
 
 ㋛${prefix}upswlocation
 `
-sendButMessage(from, menu, ` 𝐃𝐨𝐠𝐞 𝐁𝐨𝐭`, [
+sendButMessage(from, menu, ` Mayumi DVT`, [
           {
             buttonId: `command`,
             buttonText: {
@@ -2329,7 +2329,7 @@ menu = `シ︎𝘖𝘵𝘩𝘦𝘳 𝘔𝘦𝘯𝘶シ︎
 
 ㋛${prefix}gimage <query>
 `
-sendButMessage(from, menu, ` 𝐃𝐨𝐠𝐞 𝐁𝐨𝐭`, [
+sendButMessage(from, menu, ` Mayumi DVT`, [
           {
             buttonId: `command`,
             buttonText: {
@@ -2378,7 +2378,7 @@ menu = `シ︎𝘔𝘢𝘬𝘦𝘳 𝘔𝘦𝘯𝘶シ︎
 
 ㋛${prefix}waifu
 `
-sendButMessage(from, menu, ` 𝐃𝐨𝐠𝐞 𝐁𝐨𝐭`, [
+sendButMessage(from, menu, ` Mayumi DVT`, [
           {
             buttonId: `command`,
             buttonText: {
@@ -2400,7 +2400,7 @@ case 'catalog':
             "title": "LIST CATALOG",
             "products": [
               {
-                "productId": "4120139628109348"
+                "productId": "6283117436733"
               },
               {
               	"productId": "6431678466857362"
@@ -2417,7 +2417,7 @@ case 'catalog':
         },
         "businessOwnerJid": sender
       },
-      "footerText": " 𝐃𝐨𝐠𝐞 𝐁𝐨𝐭"
+      "footerText": " Mayumi DVT"
     }
   }, {quoted: freply})
   xeon.relayWAMessage(list, {waitForAck: true})
@@ -2443,7 +2443,7 @@ case 'triggered':
 case 'script':
 		case 'sc':
 		case 'sourcecode':
-		xeon.sendMessage(from, { text: "https://github.com/DGXeon/DogeBot", matchedText: 'nopee', description: "", title: "What are you doing?", jpegThumbnail: iye }, 'extendedTextMessage', { detectLinks: false, contextInfo: { forwardingScore: 508, isForwarded: true}, quoted: finv})
+		xeon.sendMessage(from, { text: "https://github.com", matchedText: 'nopee', description: "", title: "What are you doing?", jpegThumbnail: iye }, 'extendedTextMessage', { detectLinks: false, contextInfo: { forwardingScore: 508, isForwarded: true}, quoted: finv})
 		break
       //------------------< Sticker Cmd >-------------------
       case "addcmd":
@@ -2778,7 +2778,7 @@ break
 					//extra features
 					case "pubglogo":
        
-				if (args.length < 1) return reply(`Where is the text?\n*Example ${prefix}pubglogo Doge|Bot`)
+				if (args.length < 1) return reply(`Where is the text?\n*Example ${prefix}pubglogo Mayumi|DVT`)
 				reply('Wait!')
      ct = body.slice(9)
      memek1 = ct.split("|")[0];
@@ -2803,7 +2803,7 @@ break
 					reply('```Success Broadcast```')
 					} else {
 					for (let _ of anu) {
-					xeon.sendMessage(_.jid, `*𝐃𝐨𝐠𝐞 𝐁𝐨𝐭 BROADCAST*\n${ini_bc}`, text, { contextInfo: { mentionedJid: [sender],"forwardingScore":999,"isForwarded":true},sendEphemeral: true })
+					xeon.sendMessage(_.jid, `*Mayumi DVT BROADCAST*\n${ini_bc}`, text, { contextInfo: { mentionedJid: [sender],"forwardingScore":999,"isForwarded":true},sendEphemeral: true })
 					}
 					reply('```Success Broadcast```')
 					}
